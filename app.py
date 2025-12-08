@@ -10,7 +10,7 @@ model = pickle.load(open("model.pkl", 'rb'))
 st.markdown("""
     <style>
     .main-title {
-        font-size: 48px;
+        font-size: 40px;
         font-weight: 800;
         color: #4CAF50;
         text-align: center;
@@ -45,7 +45,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title
-st.markdown("<div class='main-title'>📧 Email / SMS Spam Classifier 🚀</div>", unsafe_allow_html=True)
+st.markdown("<div class='main-title'>📧 Email / SMS Spam Classifier 🧑‍💻</div>", unsafe_allow_html=True)
 st.write("### Detect whether a message is *Spam* or *Not Spam*")
 
 # Input box
