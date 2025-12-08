@@ -2,6 +2,9 @@ import streamlit as st
 import pickle
 import time
 
+st.set_page_config(page_title="Spam Classifier", page_icon="👩‍💻")
+
+
 # Load model and vectorizer
 count_vec = pickle.load(open("vectorizer.pkl", 'rb'))
 model = pickle.load(open("model.pkl", 'rb'))
